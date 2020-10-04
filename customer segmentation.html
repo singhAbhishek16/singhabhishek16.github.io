@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+     <title>Abhishek Singh | Customer Segmentation</title>
+<!-- 
+Hydro Template 
+http://www.templatemo.com/tm-509-hydro
+-->
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+     <meta name="description" content="">
+     <meta name="keywords" content="">
+     <meta name="author" content="">
+     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+     <link rel="stylesheet" href="css/bootstrap.min.css">
+     <link rel="stylesheet" href="css/magnific-popup.css">
+     <link rel="stylesheet" href="css/font-awesome.min.css">
+
+     <!-- MAIN CSS -->
+     <link rel="stylesheet" href="css/templatemo-style.css">
+</head>
+<body>
+
+     <!-- PRE LOADER -->
+     <section class="preloader">
+          <div class="spinner">
+               <span class="spinner-rotate"></span>
+          </div>
+     </section>
+
+
+     <!-- MENU -->
+     <section class="navbar custom-navbar navbar-fixed-top" role="navigation">
+          <div class="container">
+
+               <div class="navbar-header">
+                    <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                         <span class="icon icon-bar"></span>
+                         <span class="icon icon-bar"></span>
+                         <span class="icon icon-bar"></span>
+                    </button>
+
+                    <!-- lOGO TEXT HERE -->
+                    <a href="index.html" class="navbar-brand">Abhishek Singh</a>
+               </div>
+
+               <!-- MENU LINKS -->
+               <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-nav-first">
+                         <li><a href="index.html" class="smoothScroll">Home</a></li>
+                         <!--<li><a href="#about" class="smoothScroll">About</a></li>
+                         <li><a href="#blog" class="smoothScroll">Projects</a></li>
+                         <li><a href="#workex" class="smoothScroll">Work Experience</a></li>
+                         <li><a href="#work" class="smoothScroll">Blogs</a></li>-->
+                         <li><a href="#contact" class="smoothScroll">Contact</a></li>
+                    </ul>
+
+                    <ul class="nav navbar-nav navbar-right">
+                         <li><a href="https://www.linkedin.com/in/abhisheklinkings/"><i class="fa fa-linkedin"></i></a></li>
+                         <li><a href="https://github.com/singhAbhishek16"><i class="fa fa-github"></i></a></li>
+                         <li><a href="https://www.instagram.com/__abhishek.singh_/"><i class="fa fa-instagram"></i></a></li>
+                         <li><a href="https://medium.com/@singhabhishek"><i class="fa fa-medium"></i></a></li>
+                    </ul>
+               </div>
+
+          </div>
+     </section>
+
+
+     <!-- BLOG HEADER -->
+     <section id="blog-header" data-stellar-background-ratio="0.5">
+          <div class="overlay"></div>
+          <div class="container">
+               <div class="row">
+
+                    <div class="col-md-offset-1 col-md-5 col-sm-12">
+                         <h2>Customer Segmentation</h2>
+                    </div>
+                    
+               </div>
+          </div>
+     </section>
+
+
+     <!-- BLOG DETAIL -->
+     <section id="blog-detail" data-stellar-background-ratio="0.5">
+          <div class="container">
+               <div class="row">
+
+                    <div class="col-md-offset-1 col-md-10 col-sm-12">
+                         <!-- BLOG THUMB -->
+                         <div class="blog-detail-thumb">
+                              <div class="blog-image">
+                                   <center><img src="images/custseg.JPG" class="img-responsive" alt="Blog Image">
+                                   <u>pca1 vs pca2 to observe cluster of customers. <br>Same coloured dots represent customers put in common cluster</u>
+                              </div>
+
+                              <br>
+                              <br>
+
+                              <p class="font-italic">
+                                   Studying customer behaviour is key to market study. Individuals show different brand loyalty and degree of satisfaction towards same product or service. And why won't they, annual income, bank services, social status & living standards are not same for all. Hence, it is of utmost importance to <u>target different groups with different marketting strategy</u>. This project aims to study the same by segmentting a credit card company's customer base into <u>four major clusters</u>. 
+                              </p>
+                              <div class="row">
+                                   <div class="col-lg-12">
+                                        <ul>
+                                             <li><i class="icofont-rounded-right"></i> <strong>Dataset:</strong> Credit card details of ~ 9k customers<!--<a href = "https://www.kaggle.com/arjunbhasin2013/ccdata">(https://www.kaggle.com/arjunbhasin2013/ccdata)</a>--></li>
+                                             <li><i class="icofont-rounded-right"></i> <strong>Features:</strong> Balance, Purchase, Purchase frequency, Credit Limit, Minimum Payment, Tenure and 11 others</li>
+                                             <li><i class="icofont-rounded-right"></i> <strong>Target:</strong> Classify customers into groups to observe their spending behaviour </li>
+                      
+                                                  <ul>
+                                                       <li><u>Alienated</u> - Low Balance, Low Purchase - <u>6186</u> - <mark class="red"><font color="red">RED</font></mark></li>
+                                                       <li><u>Roamers</u> - Medium to high Balance, Low Purchase - <u>1330</u> - <mark class="orange"><font color="orange">ORANGE</font></mark></li>
+                                                       <li><u>Supporters</u> - Low Balance, High Purchase - <u>1324</u> - <mark class="green"><font color="#7AEE33">GREEN</font></mark></li>
+                                                       <li><u>Fans</u> - High purchase - <u>110</u> - <mark class="red"><font color="#0A6C29">DARK GREEN</font></mark></li>
+                                                  </ul>
+
+
+                                             <li><i class="icofont-rounded-right"></i> <strong>Libraries:</strong> KMeans, PCA, StandardScaler, tensorflow, numpy, pandas</li>      
+                                             <li><i class="icofont-rounded-right"></i> <strong>Algorithm:</strong> KMeans Clustering</li>
+                                             <li><i class="icofont-rounded-right"></i> <strong>Activation Function|Optimizer:</strong> ReLU|Adam</li>
+                                             <li><i class="icofont-rounded-right"></i> <strong>No. of clusters:</strong> 4</li>
+                                             <li><i class="icofont-rounded-right"></i> <strong>Dimentionality Reduction:</strong> Autoencoder (TensorFlow library), PCA</li>
+                                             <li><i class="icofont-rounded-right"></i> <strong>Insights:</strong></li>
+                                             <div class="row">
+                                               <div class="col-lg-1" data-aos="fade-right">
+                                               </div>
+                                               <div class="col-lg-11" data-aos="fade-left">
+                                                 <ul style="list-style-type:disc">
+                                                   <li>Most customers tend to do payment in installments, as full payment percentage is only 15%</li>
+                                                   <li>A large group of customers show recent purchase in range 1,000-3,000. Only a handful of them have done purchases as high as 50,000</li>
+                                                   <li>One Off Purchase and Cash Advance frequency is LOW</li>
+                                                   <li>Tenure shows maximum correation with Credit limit</li>
+                                                   <li>Follow below link for complete step-by-step analysis <u><a href="https://github.com/singhAbhishek16/CustomerSegmentation"><p style="color:red;">Github Link</p></a></u></li>
+                                                 </ul>
+                                               </div>
+                                             </div>
+                                        </ul>
+                                   </div>
+                                   <div class="col-lg-12">
+                                        <p>
+                                             <b><u>Future Scope</u></b><br>This same model can be used to classify and study customers of any store. All I need is your store's data.
+                                        </p>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+               </div>
+          </div>
+     </section>
+
+
+     <!-- FOOTER -->
+     <footer id="contact" data-stellar-background-ratio="0.5">
+          <div class="container">
+               <div class="row">
+
+                    <div class="col-md-5 col-sm-12">
+                         <div class="footer-thumb footer-info"> 
+                              <h2>Contact</h2>
+                              <p><b>Thank you for visiting my profile!</b><br><br><u>If you liked my work and have any suitable vacancy, I would love to apply for the same.</u><br><br> For interesting collaborative projects or any kind of suggestion, I am just a ping away.</p>
+                         </div>
+                    </div>
+
+                    <div class="col-md-2 col-sm-4"> 
+                         <div class="footer-thumb"> 
+                              <h2>Call:</h2>
+                              <ul class="footer-link">
+                                   <li><a href="#">+91 9065690604</a></li>
+                                   <li><a href="#">+91 9087046625</a></li>
+                              </ul>
+                         </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-4"> 
+                         <div class="footer-thumb"> 
+                              <h2>Email:</h2>
+                              <ul class="footer-link">
+                                   <li><a href="#">mfd16i001@iiitdm.ac.in</a></li>
+                                   <li><a href="#">abhisheksingh16011998@gmail.com</a></li>
+                              </ul>
+                         </div>
+                    </div>
+
+                    <div class="col-md-2 col-sm-4"> 
+                         <div class="footer-thumb"> 
+                              <h2>Skype:</h2>
+                              <p>abhishekiiit.16</p>
+                         </div>
+                    </div>                    
+
+                    <div class="col-md-12 col-sm-12">
+                         <div class="footer-bottom">
+                              <div class="col-md-6 col-sm-7">
+                                   <ul class="social-icon">
+                                        <li><a href="https://www.linkedin.com/in/abhisheklinkings/"><i class="fa fa-linkedin"></i></a></li>
+                                        <li><a href="https://github.com/singhAbhishek16"><i class="fa fa-github"></i></a></li>
+                                        <li><a href="https://www.instagram.com/__abhishek.singh_/"><i class="fa fa-instagram"></i></a></li>
+                                        <li><a href="https://medium.com/@singhabhishek"><i class="fa fa-medium"></i></a></li>
+                                   </ul>
+                              </div>
+                         </div>
+                    </div>
+                    
+               </div>
+          </div>
+     </footer>
+
+     <!-- SCRIPTS -->
+     <script src="js/jquery.js"></script>
+     <script src="js/bootstrap.min.js"></script>
+     <script src="js/jquery.stellar.min.js"></script>
+     <script src="js/jquery.magnific-popup.min.js"></script>
+     <script src="js/smoothscroll.js"></script>
+     <script src="js/custom.js"></script>
+
+</body>
+</html>

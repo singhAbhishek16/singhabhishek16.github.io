@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+     <title>Abhishek Singh | CNC Tool Monitoring</title>
+<!-- 
+Hydro Template 
+http://www.templatemo.com/tm-509-hydro
+-->
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+     <meta name="description" content="">
+     <meta name="keywords" content="">
+     <meta name="author" content="">
+     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+     <link rel="stylesheet" href="css/bootstrap.min.css">
+     <link rel="stylesheet" href="css/magnific-popup.css">
+     <link rel="stylesheet" href="css/font-awesome.min.css">
+
+     <!-- MAIN CSS -->
+     <link rel="stylesheet" href="css/templatemo-style.css">
+</head>
+<body>
+
+     <!-- PRE LOADER -->
+     <section class="preloader">
+          <div class="spinner">
+               <span class="spinner-rotate"></span>
+          </div>
+     </section>
+
+
+     <!-- MENU -->
+     <section class="navbar custom-navbar navbar-fixed-top" role="navigation">
+          <div class="container">
+
+               <div class="navbar-header">
+                    <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                         <span class="icon icon-bar"></span>
+                         <span class="icon icon-bar"></span>
+                         <span class="icon icon-bar"></span>
+                    </button>
+
+                    <!-- lOGO TEXT HERE -->
+                    <a href="index.html" class="navbar-brand">Abhishek Singh</a>
+               </div>
+
+               <!-- MENU LINKS -->
+               <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-nav-first">
+                         <li><a href="index.html" class="smoothScroll">Home</a></li>
+                         <!--<li><a href="#about" class="smoothScroll">About</a></li>
+                         <li><a href="#blog" class="smoothScroll">Projects</a></li>
+                         <li><a href="#workex" class="smoothScroll">Work Experience</a></li>
+                         <li><a href="#work" class="smoothScroll">Blogs</a></li>-->
+                         <li><a href="#contact" class="smoothScroll">Contact</a></li>
+                    </ul>
+
+                    <ul class="nav navbar-nav navbar-right">
+                         <li><a href="https://www.linkedin.com/in/abhisheklinkings/"><i class="fa fa-linkedin"></i></a></li>
+                         <li><a href="https://github.com/singhAbhishek16"><i class="fa fa-github"></i></a></li>
+                         <li><a href="https://www.instagram.com/__abhishek.singh_/"><i class="fa fa-instagram"></i></a></li>
+                         <li><a href="https://medium.com/@singhabhishek"><i class="fa fa-medium"></i></a></li>
+                    </ul>
+               </div>
+
+          </div>
+     </section>
+
+
+     <!-- BLOG HEADER -->
+     <section id="blog-header" data-stellar-background-ratio="0.5">
+          <div class="overlay"></div>
+          <div class="container">
+               <div class="row">
+
+                    <div class="col-md-offset-1 col-md-5 col-sm-12">
+                         <h2>CNC Tool Monitoring System</h2>
+                    </div>
+                    
+               </div>
+          </div>
+     </section>
+
+
+     <!-- BLOG DETAIL -->
+     <section id="blog-detail" data-stellar-background-ratio="0.5">
+          <div class="container">
+               <div class="row">
+
+                    <div class="col-md-offset-1 col-md-10 col-sm-12">
+                         <!-- BLOG THUMB -->
+                         <div class="blog-detail-thumb">
+                              <div class="blog-image">
+                                   <center><img src="images/cnctoolmonitoring.PNG" class="img-responsive" alt="Blog Image">
+                                   <u>MATLAB based dashboard showing Tool health dial, Machine ON/OFF indicator and x,y & z accelerations</u>
+                              </div>
+
+                              <br>
+                              <br>
+
+                              <p class="font-italic">
+                                   Irregular maintenance of industrial componenents costs money & time to company, especially in manufacturing sector. To takle this issue, I've been working on <u>Predictive Maintenance of CNC tools</u>. With this project, an attempt is made to predict whether the tool is going to function well in next specified duration or not. If not, the authorized person is alerted to change the tool.
+                              </p>
+                              <div class="row">
+                                   <div class="col-lg-12">
+                                         <ul>
+                                           <li><i class="icofont-rounded-right"></i> <strong>How?</strong> Neural Network (ML) model to predict anomaly based on standard fracture data of tool material</li>
+                                           <li><i class="icofont-rounded-right"></i> <strong>Prediction duration:</strong> next 5 min</li>
+                                           <li><i class="icofont-rounded-right"></i> <strong>Hardware:</strong> MPU6050 accelerometer gyroscope, Rpi, CNC machine</li>
+                                           <li><i class="icofont-rounded-right"></i> <strong>Software:</strong> Matlab, Firebase</li>
+                                           <li><i class="icofont-rounded-right"></i> <strong>Working:</strong> Raw Data -> Filtering -> Data Reduction -> Feature Extraction</li>
+                                           <li><i class="icofont-rounded-right"></i> <strong>Dimentionality Reduction:</strong> Principal Component Analysis</li>
+                                           <li><i class="icofont-rounded-right"></i> <strong>Filtering:</strong> Butterworth filter</li>
+                                           <li><i class="icofont-rounded-right"></i> <strong>Detail report:</strong><u><a href="https://docs.google.com/document/d/17xYgPLZyHncc_JiX8RRtHv3dcRGi0u5AR0ojZiopHDU/edit?usp=sharing"><p style="color:red;">Link</p></a></u></li>
+
+                                         </ul>
+                                   </div>
+                                   <div class="col-lg-12">
+                                        <p>
+                                             <b><u>Scope</u></b><br>This project is irrespective of type of tool and can be installed on any mechanical machine. Accelerometer will send the vibration data to firebase through Rpi and prediction can be performed based on respective material's standarad data.
+                                        </p>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+               </div>
+          </div>
+     </section>
+
+
+     <!-- FOOTER -->
+     <footer id="contact" data-stellar-background-ratio="0.5">
+          <div class="container">
+               <div class="row">
+
+                    <div class="col-md-5 col-sm-12">
+                         <div class="footer-thumb footer-info"> 
+                              <h2>Contact</h2>
+                              <p><b>Thank you for visiting my profile!</b><br><br><u>If you liked my work and have any suitable vacancy, I would love to apply for the same.</u><br><br> For interesting collaborative projects or any kind of suggestion, I am just a ping away.</p>
+                         </div>
+                    </div>
+
+                    <div class="col-md-2 col-sm-4"> 
+                         <div class="footer-thumb"> 
+                              <h2>Call:</h2>
+                              <ul class="footer-link">
+                                   <li><a href="#">+91 9065690604</a></li>
+                                   <li><a href="#">+91 9087046625</a></li>
+                              </ul>
+                         </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-4"> 
+                         <div class="footer-thumb"> 
+                              <h2>Email:</h2>
+                              <ul class="footer-link">
+                                   <li><a href="#">mfd16i001@iiitdm.ac.in</a></li>
+                                   <li><a href="#">abhisheksingh16011998@gmail.com</a></li>
+                              </ul>
+                         </div>
+                    </div>
+
+                    <div class="col-md-2 col-sm-4"> 
+                         <div class="footer-thumb"> 
+                              <h2>Skype:</h2>
+                              <p>abhishekiiit.16</p>
+                         </div>
+                    </div>                    
+
+                    <div class="col-md-12 col-sm-12">
+                         <div class="footer-bottom">
+                              <div class="col-md-6 col-sm-7">
+                                   <ul class="social-icon">
+                                        <li><a href="https://www.linkedin.com/in/abhisheklinkings/"><i class="fa fa-linkedin"></i></a></li>
+                                        <li><a href="https://github.com/singhAbhishek16"><i class="fa fa-github"></i></a></li>
+                                        <li><a href="https://www.instagram.com/__abhishek.singh_/"><i class="fa fa-instagram"></i></a></li>
+                                        <li><a href="https://medium.com/@singhabhishek"><i class="fa fa-medium"></i></a></li>
+                                   </ul>
+                              </div>
+                         </div>
+                    </div>
+                    
+               </div>
+          </div>
+     </footer>
+
+     <!-- SCRIPTS -->
+     <script src="js/jquery.js"></script>
+     <script src="js/bootstrap.min.js"></script>
+     <script src="js/jquery.stellar.min.js"></script>
+     <script src="js/jquery.magnific-popup.min.js"></script>
+     <script src="js/smoothscroll.js"></script>
+     <script src="js/custom.js"></script>
+
+</body>
+</html>
